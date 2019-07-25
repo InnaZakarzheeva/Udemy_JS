@@ -1,15 +1,15 @@
 let beginCount = document.getElementById('start'),
+    
+    budgetValue = document.getElementsByClassName('budget-value')[0],
+    dayBudgetValue = document.getElementsByClassName('daybudget-value')[0],
+    levelValue = document.getElementsByClassName('level-value')[0],
+    expensesValue = document.getElementsByClassName('expenses-value')[0],
+    optExpensesValue = document.getElementsByClassName('optionalexpenses-value')[0],
+    incomeValue = document.getElementsByClassName('income-value')[0],
+    monthSaveValue = document.getElementsByClassName('monthsavings-value')[0],
+    yearSaveValue = document.getElementsByClassName('yearsavings-value')[0],
 
-    budgetValue = document.getElementsByClassName('budget-value'),
-    dayBudgetValue = document.getElementsByClassName('daybudget-value'),
-    levelValue = document.getElementsByClassName('level-value'),
-    expensesValue = document.getElementsByClassName('expenses-value'),
-    optExpensesValue = document.getElementsByClassName('optionalexpenses-value'),
-    incomeValue = document.getElementsByClassName('income-value'),
-    monthSaveValue = document.getElementsByClassName('monthsavings-value'),
-    yearSaveValue = document.getElementsByClassName('yearsavings-value'),
-
-    input = document.getElementsByClassName('expenses-item'),
+    expensesItem = document.getElementsByClassName('expenses-item'),
 
     btnConfirmF = document.getElementsByTagName('button')[0],
     btnConfirmS = document.getElementsByTagName('button')[1],
