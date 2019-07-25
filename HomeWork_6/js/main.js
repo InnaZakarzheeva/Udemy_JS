@@ -11,10 +11,9 @@ let beginCount = document.getElementById('start'),
 
     input = document.getElementsByClassName('expenses-item'),
 
-    btn = document.getElementsByTagName('button'),
-    btnConfirmF = btn[0],
-    btnConfirmS = btn[1],
-    btnCount = btn[2],
+    btnConfirmF = document.getElementsByTagName('button')[0],
+    btnConfirmS = document.getElementsByTagName('button')[1],
+    btnCount = document.getElementsByTagName('button')[2],
 
     inputOptExpenses = document.querySelectorAll('input.optionalexpenses-item'),
 
